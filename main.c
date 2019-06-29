@@ -6,7 +6,7 @@
 /*   By: mqian <mqian@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/30 15:24:36 by grougeau          #+#    #+#             */
-/*   Updated: 2019/06/29 13:54:49 by mqian            ###   ########.fr       */
+/*   Updated: 2019/06/29 14:13:36 by grougeau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ int	main(int argc, char **argv)
 {
 	if (argc != 2)
 	{
-		ft_putstr("error\n");
+		ft_putstr(" usage: ./fillit source_file\n");
 		return (-1);
 	}
 	else
